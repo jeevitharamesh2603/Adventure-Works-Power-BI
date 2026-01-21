@@ -4,8 +4,6 @@ A Microsoft Power BI business intelligence dashboard for AdventureWorks, a ficti
 
 The customer base is spread across 6 countries on 3 continents: Australia, Canada, France, Germany, United Kingdom and United States. Sales and return data is available for the period between 01/01/2020 and 30/06/2022. Customer profiles include date of birth, annual income, education level, number of children, occupation and homeowner status. 
 
-<img alt="AdventureWorks Executive Dashboard" src="images/screenshots/exec_dashboard.gif">
-
 ## Features
 
 - Track key performance indicators (KPIs) related to sales, revenue, profit, and returns.
@@ -31,18 +29,26 @@ This project involved the following tasks:
 - page-level filtering by product and product category
 - drill-through per product to product detail view
 
+<img alt="AdventureWorks Executive Dashboard" src="Images/Exec dash.PNG">
+
 #### Map View
 
-- total orders per country
+- Total orders per country
+
+<img alt="AdventureWorks Map Dashboard" src="Images/Map.PNG">
 
 #### Product Detail View
 
-- per-product performance against order, revenue and profit targets
+- Per-product performance against order, revenue and profit targets
 - "what if" analysis via price adjustment shows adjusted profit
+
+<img alt="AdventureWorks Product Dashboard" src="Images/Product dash.PNG">
 
 #### Customer Detail View
 
-- total customer and per-customer revenue analysis
+- Total customer and per-customer revenue analysis
+
+<img alt="AdventureWorks Customer Dashboard" src="Images/Customer Dash.PNG">
 
 #### Custom UI Elements
 
@@ -55,16 +61,11 @@ This project involved the following tasks:
 
 - Understandably, tires and tubes are the most ordered product type, while cycling shorts are the most returned product type. After mountain bike fenders, sports helmets top the list of revenue-generating products, despite having relatively high return rates:
 
-<img src="./images/screenshots/top_revenue_products.png">
-
 - The most profitable product categories are clothing and accessories.
 
 - There is a step change (on the order of 200 customers per week) in total weekly customers beginning 02/08/2021.
 
-<img src="./images/screenshots/total_weekly_customers.png">
-
 - However, revenue per customer has been declining year-on-year:
 
-<img src="./images/screenshots/revenue_per_customer.png">
 
 - While the United States is the largest market with 8,700 orders and $7.94 million in total revenue, The Australian market has the largest revenue per customer at $2,131.
